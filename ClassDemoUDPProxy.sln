@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDemoUDPProxy", "ClassDemoUDPProxy\ClassDemoUDPProxy.csproj", "{276B3FD3-7221-4338-9C68-38AC357F0A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassDemoUDPProxy", "ClassDemoUDPProxy\ClassDemoUDPProxy.csproj", "{276B3FD3-7221-4338-9C68-38AC357F0A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorModelLib", "SensorModelLib\SensorModelLib.csproj", "{F79ACF6E-7E46-4F9E-8D5B-986CB13B6402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorREST", "SensorREST\SensorREST.csproj", "{D2F8D9A6-D7E5-426F-9959-5631D469EA6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{276B3FD3-7221-4338-9C68-38AC357F0A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{276B3FD3-7221-4338-9C68-38AC357F0A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{276B3FD3-7221-4338-9C68-38AC357F0A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79ACF6E-7E46-4F9E-8D5B-986CB13B6402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79ACF6E-7E46-4F9E-8D5B-986CB13B6402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79ACF6E-7E46-4F9E-8D5B-986CB13B6402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79ACF6E-7E46-4F9E-8D5B-986CB13B6402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F8D9A6-D7E5-426F-9959-5631D469EA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F8D9A6-D7E5-426F-9959-5631D469EA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F8D9A6-D7E5-426F-9959-5631D469EA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F8D9A6-D7E5-426F-9959-5631D469EA6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
